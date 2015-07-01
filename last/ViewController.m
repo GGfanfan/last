@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIButton *oneBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    UIButton *twoBtn=[UIButton buttonWithType:UIButtonTypeCustom];
 }
 
 - (void)didReceiveMemoryWarning {
