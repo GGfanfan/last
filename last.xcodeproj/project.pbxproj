@@ -15,6 +15,12 @@
 		DA7FD53E1B43835C00F0A394 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7FD53D1B43835C00F0A394 /* Images.xcassets */; };
 		DA7FD5411B43835C00F0A394 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7FD53F1B43835C00F0A394 /* LaunchScreen.xib */; };
 		DA7FD54D1B43835C00F0A394 /* lastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FD54C1B43835C00F0A394 /* lastTests.m */; };
+		DA7FD5591B43BF9800F0A394 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FD5571B43BF9800F0A394 /* TableViewCell.m */; };
+		DA7FD55A1B43BF9800F0A394 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7FD5581B43BF9800F0A394 /* TableViewCell.xib */; };
+		DA7FD55E1B43C49E00F0A394 /* SmollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FD55C1B43C49E00F0A394 /* SmollTableViewCell.m */; };
+		DA7FD55F1B43C49E00F0A394 /* SmollTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7FD55D1B43C49E00F0A394 /* SmollTableViewCell.xib */; };
+		DA7FD5681B43C61400F0A394 /* SmallViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FD5661B43C61400F0A394 /* SmallViewViewController.m */; };
+		DA7FD5691B43C61400F0A394 /* SmallViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7FD5671B43C61400F0A394 /* SmallViewViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,15 @@
 		DA7FD5461B43835C00F0A394 /* lastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7FD54B1B43835C00F0A394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA7FD54C1B43835C00F0A394 /* lastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lastTests.m; sourceTree = "<group>"; };
+		DA7FD5561B43BF9800F0A394 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		DA7FD5571B43BF9800F0A394 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		DA7FD5581B43BF9800F0A394 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		DA7FD55B1B43C49E00F0A394 /* SmollTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmollTableViewCell.h; sourceTree = "<group>"; };
+		DA7FD55C1B43C49E00F0A394 /* SmollTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmollTableViewCell.m; sourceTree = "<group>"; };
+		DA7FD55D1B43C49E00F0A394 /* SmollTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmollTableViewCell.xib; sourceTree = "<group>"; };
+		DA7FD5651B43C61400F0A394 /* SmallViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallViewViewController.h; sourceTree = "<group>"; };
+		DA7FD5661B43C61400F0A394 /* SmallViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallViewViewController.m; sourceTree = "<group>"; };
+		DA7FD5671B43C61400F0A394 /* SmallViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallViewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +102,15 @@
 				DA7FD5321B43835C00F0A394 /* AppDelegate.m */,
 				DA7FD5371B43835C00F0A394 /* ViewController.h */,
 				DA7FD5381B43835C00F0A394 /* ViewController.m */,
+				DA7FD5651B43C61400F0A394 /* SmallViewViewController.h */,
+				DA7FD5661B43C61400F0A394 /* SmallViewViewController.m */,
+				DA7FD5671B43C61400F0A394 /* SmallViewViewController.xib */,
+				DA7FD5561B43BF9800F0A394 /* TableViewCell.h */,
+				DA7FD5571B43BF9800F0A394 /* TableViewCell.m */,
+				DA7FD5581B43BF9800F0A394 /* TableViewCell.xib */,
+				DA7FD55B1B43C49E00F0A394 /* SmollTableViewCell.h */,
+				DA7FD55C1B43C49E00F0A394 /* SmollTableViewCell.m */,
+				DA7FD55D1B43C49E00F0A394 /* SmollTableViewCell.xib */,
 				DA7FD53A1B43835C00F0A394 /* Main.storyboard */,
 				DA7FD53D1B43835C00F0A394 /* Images.xcassets */,
 				DA7FD53F1B43835C00F0A394 /* LaunchScreen.xib */,
@@ -202,7 +226,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7FD55F1B43C49E00F0A394 /* SmollTableViewCell.xib in Resources */,
 				DA7FD53C1B43835C00F0A394 /* Main.storyboard in Resources */,
+				DA7FD55A1B43BF9800F0A394 /* TableViewCell.xib in Resources */,
+				DA7FD5691B43C61400F0A394 /* SmallViewViewController.xib in Resources */,
 				DA7FD5411B43835C00F0A394 /* LaunchScreen.xib in Resources */,
 				DA7FD53E1B43835C00F0A394 /* Images.xcassets in Resources */,
 			);
@@ -224,7 +251,10 @@
 			files = (
 				DA7FD5331B43835C00F0A394 /* AppDelegate.m in Sources */,
 				DA7FD5361B43835C00F0A394 /* last.xcdatamodeld in Sources */,
+				DA7FD5681B43C61400F0A394 /* SmallViewViewController.m in Sources */,
 				DA7FD5391B43835C00F0A394 /* ViewController.m in Sources */,
+				DA7FD55E1B43C49E00F0A394 /* SmollTableViewCell.m in Sources */,
+				DA7FD5591B43BF9800F0A394 /* TableViewCell.m in Sources */,
 				DA7FD5301B43835C00F0A394 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +450,7 @@
 				DA7FD5521B43835C00F0A394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA7FD5531B43835C00F0A394 /* Build configuration list for PBXNativeTarget "lastTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +459,7 @@
 				DA7FD5551B43835C00F0A394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
