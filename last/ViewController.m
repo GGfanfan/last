@@ -18,6 +18,7 @@
     [super viewDidLoad];
     UIButton *oneBtn=[UIButton buttonWithType:UIButtonTypeCustom];
     UIButton *twoBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    UIButton *ftmBtn=[UIButton buttonWithType:UIButtonTypeCustom];
 }
 
 - (void)didReceiveMemoryWarning {
